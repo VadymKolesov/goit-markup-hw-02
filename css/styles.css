@@ -44,6 +44,10 @@ ul {
 }
 
 .link {
+  text-decoration: none;
+}
+
+.logo-web {
   font-family: "Raleway", sans-serif;
   font-weight: 800;
   line-height: 1.17;
@@ -51,10 +55,9 @@ ul {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--iris);
-  text-decoration: none;
 }
 
-.link .logo-text-studio {
+.logo-text-studio {
   color: var(--navy-blue);
 }
 
@@ -84,11 +87,7 @@ ul {
   font-style: normal;
 }
 
-.contacts {
-  list-style: none;
-}
-
-.contacts .contacts-content {
+.list .contacts {
   color: var(--slate);
   font-weight: 400;
   font-size: 16px;
@@ -96,9 +95,9 @@ ul {
   letter-spacing: 0.02em;
 }
 
-.contacts a:focus,
-.contacts a:active,
-.contacts a:hover {
+.contacts:focus,
+.contacts:active,
+.contacts:hover {
   color: var(--ocean);
 }
 
