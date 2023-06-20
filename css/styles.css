@@ -1,0 +1,157 @@
+:root {
+  --iris: #4d5ae5;
+  --navy-blue: #2e2f42;
+  --slate: #434455;
+  --ocean: #404bbf;
+  --white: #ffffff;
+  --cornflower: #e7e9fc;
+  --cloud: #f4f4fd;
+}
+
+header {
+  border: 1px solid var(--cornflower);
+}
+
+body,
+a {
+  font-family: "Roboto", sans-serif;
+  text-decoration: none;
+  letter-spacing: 0.02em;
+  color: var(--navy-blue);
+}
+
+h2 {
+  text-align: center;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.111;
+}
+
+h3 {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+}
+
+p {
+  color: var(--slate);
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.logo-text {
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+  line-height: 1.166;
+  font-size: 18px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--iris);
+  text-decoration: none;
+}
+
+.logo-text .logo-text-studio {
+  color: var(--navy-blue);
+}
+
+.logo-text .logo-text-studio-footer {
+  color: var(--cloud);
+}
+
+.nav-bar {
+  list-style-type: none;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.nav-bar a:focus,
+.nav-bar a:active,
+.nav-bar a:hover {
+  color: var(--ocean);
+}
+
+.contacts {
+  list-style-type: none;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  font-style: normal;
+}
+
+.contacts a {
+  color: var(--slate);
+}
+
+.contacts a:focus,
+.contacts a:active,
+.contacts a:hover {
+  color: var(--ocean);
+}
+
+.section-title {
+  background-color: var(--navy-blue);
+  text-align: center;
+}
+
+.title {
+  color: var(--white);
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.071;
+}
+
+.button-order {
+  background-color: var(--iris);
+  color: var(--white);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  border: 0;
+  cursor: pointer;
+}
+
+.section-info h2 {
+  color: var(--white);
+}
+
+.section-team {
+  background-color: var(--cloud);
+}
+
+.section-team li {
+  background-color: var(--white);
+}
+
+footer {
+  background-color: var(--navy-blue);
+}
+
+footer p {
+  color: var(--cloud);
+}
+
+.section-filter button {
+  background-color: var(--cloud);
+  color: var(--iris);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  text-align: center;
+  border: 1px solid var(--cornflower);
+}
+
+.section-filter button:active,
+.section-filter button:focus,
+.section-filter button:hover {
+  background-color: var(--ocean);
+  color: var(--white);
+  border-color: var(--ocean);
+  text-align: center;
+  cursor: pointer;
+}
