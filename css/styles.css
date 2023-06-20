@@ -16,8 +16,8 @@ body,
 a {
   font-family: "Roboto", sans-serif;
   text-decoration: none;
-  letter-spacing: 0.02em;
-  color: var(--navy-blue);
+  color: var(--slate);
+  background-color: var(--white);
 }
 
 h2 {
@@ -40,13 +40,13 @@ p {
 }
 
 ul {
-  list-style-type: none;
+  list-style: none;
 }
 
-.logo-text {
+.link {
   font-family: "Raleway", sans-serif;
   font-weight: 800;
-  line-height: 1.166;
+  line-height: 1.17;
   font-size: 18px;
   letter-spacing: 0.03em;
   text-transform: uppercase;
@@ -54,7 +54,7 @@ ul {
   text-decoration: none;
 }
 
-.logo-text .logo-text-studio {
+.link .logo-text-studio {
   color: var(--navy-blue);
 }
 
@@ -62,21 +62,26 @@ ul {
   color: var(--cloud);
 }
 
-.nav-bar {
-  list-style-type: none;
+.list {
+  list-style: none;
+}
+
+.list .nav-list {
+  color: var(--navy-blue);
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 
-.nav-bar a:focus,
-.nav-bar a:active,
-.nav-bar a:hover {
+.list .nav-list:focus,
+.list .nav-list:active,
+.list .nav-list:hover {
   color: var(--ocean);
 }
 
 .contacts {
-  list-style-type: none;
+  list-style: none;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
