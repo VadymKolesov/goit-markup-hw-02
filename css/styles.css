@@ -96,7 +96,6 @@ ul {
 }
 
 .contacts:focus,
-.contacts:active,
 .contacts:hover {
   color: var(--ocean);
 }
@@ -143,7 +142,12 @@ footer p {
   color: var(--cloud);
 }
 
-.section-filter button {
+.section-filter h1 {
+  color: var(--white);
+  text-align: center;
+}
+
+.section-filter .button-filter {
   background-color: var(--cloud);
   color: var(--iris);
   font-weight: 500;
@@ -152,14 +156,30 @@ footer p {
   letter-spacing: 0.04em;
   text-align: center;
   border: 1px solid var(--cornflower);
+
+  cursor: pointer;
 }
 
-.section-filter button:active,
-.section-filter button:focus,
-.section-filter button:hover {
+.section-filter .button-filter:focus,
+.section-filter .button-filter:hover {
   background-color: var(--ocean);
   color: var(--white);
   border-color: var(--ocean);
   text-align: center;
-  cursor: pointer;
+}
+
+.title-list {
+  text-align: left;
+  color: var(--navy-blue);
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+
+.mark-filter {
+  color: var(--slate);
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
